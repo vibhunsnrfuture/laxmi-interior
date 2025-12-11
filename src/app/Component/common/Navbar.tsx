@@ -21,11 +21,11 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/sitelogo.jpg" 
+            src="/laxmilogo2.png" 
             alt="Flourish Design Logo"
-            width={48}
-            height={0}
-            className="h-12 w-auto object-contain"
+            width={100}
+            height={60}
+            className="h-18 w-auto object-contain"
             priority
           />
         </Link>

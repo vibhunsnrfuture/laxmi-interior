@@ -7,22 +7,22 @@ import { ArrowRight } from 'lucide-react';
 const services = [
   {
     title: 'Modular Interiors',
-    description: 'Functional kitchen, wardrobe and storage',
+    description: 'Premium modular kitchens, wardrobes, and smart storage by Laxmi Interior.',
     image: '/home/modular.png',
   },
   {
     title: 'Full Home Interiors',
-    description: 'Turnkey interior solutions for your home',
+    description: 'Complete turnkey interior solutions crafted for your dream home.',
     image: '/home/fullhome.png',
   },
   {
     title: 'Luxury Interiors',
-    description: 'Tailored interiors that redefine elegance',
+    description: 'Bespoke luxury interiors designed with elegance and precision.',
     image: '/home/luxury.png',
   },
   {
     title: 'Renovations',
-    description: 'Expert solutions to upgrade your home',
+    description: 'Expert renovation services to refresh, upgrade, and modernize your space.',
     image: '/home/renovations.png',
   },
 ];
@@ -32,11 +32,12 @@ export default function ServicesSection() {
     <section className="bg-black py-16 px-6">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-[#FFD700] to-white text-transparent bg-clip-text animate-pulse">
-          One-stop shop for all things interiors
+          Laxmi Interior – Your Complete Interior Solutions Partner
         </h2>
+
         <p className="text-gray-400 max-w-2xl mx-auto mb-12">
-          Be it end-to-end interiors, renovation or modular solutions, we have it all for your home
-          or office. With a wide range of furniture & décor, we have your back from start to finish.
+          From modular kitchens to full home interiors, luxury designs, and professional renovations —
+          Laxmi Interior delivers end-to-end solutions with exceptional craftsmanship and timeless style.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -51,11 +52,13 @@ export default function ServicesSection() {
                     className="object-cover"
                   />
                 </div>
+
                 <div className="p-4 text-left">
                   <h3 className="font-semibold text-lg text-white mb-1">
                     {service.title}
                   </h3>
                   <p className="text-sm text-gray-300 mb-4">{service.description}</p>
+
                   <ArrowRight className="w-5 h-5 text-[#FFD700] group-hover:translate-x-1 transition-transform duration-300" />
                 </div>
               </div>

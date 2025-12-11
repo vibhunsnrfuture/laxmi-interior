@@ -6,27 +6,27 @@ import { useState } from 'react';
 const testimonials = [
   {
     name: 'Riya Malhotra',
-    location: 'Pune, Maharashtra',
+    location: 'Hyderabad',
     avatar: '/home/client1.png',
-    title: 'Beautiful Transformation',
+    title: 'Beautiful Transformation by Laxmi Interior',
     feedback:
-      'Our 3BHK flat was transformed into a modern, functional space beyond our expectations. The design team brought our vision to life with elegance and care.',
+      'Laxmi Interior transformed our 3BHK into a modern, functional home. The team understood our taste perfectly and delivered a design that feels premium yet homely.',
   },
   {
     name: 'Aarav',
-    location: 'Ahmedabad, Gujarat',
+    location: 'Hyderabad',
     avatar: '/home/boyavtar.png',
-    title: 'Seamless Execution',
+    title: 'Smooth & Hassle-Free Experience',
     feedback:
-      'From planning to the final execution, everything was smooth. Their professionalism, creativity, and timely delivery made the experience stress-free.',
+      'From the first design discussion to final installation, the Laxmi Interior team handled everything professionally. Their creativity, regular updates, and on-time delivery made the entire journey stress-free.',
   },
   {
     name: 'Dr. Ayesha Singh',
-    location: 'Lucknow, Uttar Pradesh',
+    location: 'Hyderabad',
     avatar: '/home/client1.png',
-    title: 'Highly Impressed',
+    title: 'Perfect Space for My Practice',
     feedback:
-      'The team redesigned my clinic’s interiors and I couldn’t be happier. Clean aesthetics, smart layout, and an inviting atmosphere — exactly what I wanted.',
+      'Laxmi Interior redesigned my clinic with a clean, calming look and a smart layout. Patients love the new ambience, and it reflects exactly the professional yet warm feel I wanted.',
   },
 ];
 
@@ -34,21 +34,25 @@ export default function Testimonials() {
   const [current, setCurrent] = useState(0);
 
   const prev = () => {
-    setCurrent((prevIndex) => (prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1));
+    setCurrent((prevIndex) =>
+      prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
+    );
   };
 
   const next = () => {
-    setCurrent((prevIndex) => (prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1));
+    setCurrent((prevIndex) =>
+      prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
+    );
   };
 
   return (
     <section className="bg-black text-white py-20 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-2 bg-gradient-to-r from-[#FFD700] to-white text-transparent bg-clip-text animate-pulse">
-          What Our Clients Say
+          What Our Laxmi Interior Clients Say
         </h2>
         <p className="text-gray-400 mb-10 text-sm">
-          Real feedback from families and professionals who trusted us with their dream interiors.
+          Hear from homeowners and professionals who trusted Laxmi Interior to design and execute their dream spaces.
         </p>
 
         {/* Carousel Container */}
@@ -64,8 +68,12 @@ export default function Testimonials() {
             </div>
 
             {/* Content */}
-            <h3 className="font-semibold text-lg mb-2">{testimonials[current].title}</h3>
-            <p className="text-sm text-gray-300 mb-6">{testimonials[current].feedback}</p>
+            <h3 className="font-semibold text-lg mb-2">
+              {testimonials[current].title}
+            </h3>
+            <p className="text-sm text-gray-300 mb-6">
+              {testimonials[current].feedback}
+            </p>
 
             {/* Avatar + Info */}
             <div className="flex items-center justify-center gap-4">
@@ -77,8 +85,12 @@ export default function Testimonials() {
                 className="rounded-full object-cover"
               />
               <div>
-                <p className="font-medium text-sm text-white">{testimonials[current].name}</p>
-                <p className="text-xs text-gray-400">{testimonials[current].location}</p>
+                <p className="font-medium text-sm text-white">
+                  {testimonials[current].name}
+                </p>
+                <p className="text-xs text-gray-400">
+                  {testimonials[current].location}
+                </p>
               </div>
             </div>
           </div>

@@ -38,17 +38,16 @@ export default function InspirationGrid() {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-14 gap-4 sm:gap-3">
           <div>
             <h2 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-r from-[#FFD700] to-white text-transparent bg-clip-text animate-pulse">
-              Inspiration for home interior designs
+              Laxmi Interior inspirations for your dream home
             </h2>
             <p className="text-white text-sm mt-2 animate-fade-in">
-              Give your home a futuristic vibe with premium ideas curated just for you.
+              Browse handpicked Laxmi Interior designs for every corner of your home – crafted to balance comfort, style, and functionality.
             </p>
           </div>
 
-          {/* ✅ Link fixed here */}
           <Link href="/design">
             <button className="text-[#FFD700] text-sm font-semibold hover:underline transition duration-300">
-              View All →
+              View All Designs →
             </button>
           </Link>
         </div>
@@ -58,7 +57,7 @@ export default function InspirationGrid() {
           {inspirations.map((item, index) => (
             <Link href="/design" key={index}>
               <div
-                className="fade-up opacity-0 translate-y-10 transition-all duration-700 ease-out delay-[index*100] group relative rounded-xl overflow-hidden bg-[#1a1a1a] border border-[#2f2f2f] shadow-xl hover:shadow-[0_0_25px_#FFD70088] hover:-translate-y-3 transform cursor-pointer"
+                className="fade-up opacity-0 translate-y-10 transition-all duration-700 ease-out group relative rounded-xl overflow-hidden bg-[#1a1a1a] border border-[#2f2f2f] shadow-xl hover:shadow-[0_0_25px_#FFD70088] hover:-translate-y-3 transform cursor-pointer"
               >
                 <div className="relative w-full h-60 overflow-hidden">
                   <Image

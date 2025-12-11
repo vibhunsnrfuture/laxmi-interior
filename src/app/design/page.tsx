@@ -6,15 +6,15 @@ import { useEffect } from 'react';
 
 export default function DesignPage() {
   const sections = [
-    { title: 'Kitchen', subtitle: '500+ Designs', image: '/design/kitchendesign.png' },
-    { title: 'Living room', subtitle: '500+ Designs', image: '/design/livingroom.png' },
-    { title: 'Master Bedroom', subtitle: '500+ Designs', image: '/design/bedroom.png' },
-    { title: 'Wardrobe', subtitle: '500+ Designs', image: '/design/wardrore.png' },
-    { title: 'Dining Room', subtitle: '500+ Designs', image: '/design/dining.png' },
-    { title: "Kid's Bedroom", subtitle: '500+ Designs', image: '/design/kid room.png' },
-    { title: 'Bathroom', subtitle: '500+ Designs', image: '/design/bathroom.png' },
-    { title: 'Balcony', subtitle: '500+ Designs', image: '/design/balcony.png' },
-    { title: 'Pooja Room', subtitle: '500+ Designs', image: '/design/poojaroom.png' },
+    { title: 'Kitchen', subtitle: '500+ Laxmi Interior Designs', image: '/design/kitchendesign.png' },
+    { title: 'Living Room', subtitle: '500+ Laxmi Interior Designs', image: '/design/livingroom.png' },
+    { title: 'Master Bedroom', subtitle: '500+ Laxmi Interior Designs', image: '/design/bedroom.png' },
+    { title: 'Wardrobe', subtitle: '500+ Laxmi Interior Designs', image: '/design/wardrore.png' },
+    { title: 'Dining Room', subtitle: '500+ Laxmi Interior Designs', image: '/design/dining.png' },
+    { title: "Kid's Bedroom", subtitle: '500+ Laxmi Interior Designs', image: '/design/kid room.png' },
+    { title: 'Bathroom', subtitle: '500+ Laxmi Interior Designs', image: '/design/bathroom.png' },
+    { title: 'Balcony', subtitle: '500+ Laxmi Interior Designs', image: '/design/balcony.png' },
+    { title: 'Pooja Room', subtitle: '500+ Laxmi Interior Designs', image: '/design/poojaroom.png' },
   ];
 
   useEffect(() => {
@@ -40,12 +40,13 @@ export default function DesignPage() {
       {/* Heading */}
       <div className="mb-12 text-left">
         <h2 className="text-3xl md:text-5xl font-bold text-transparent bg-gradient-to-r from-[#FFD700] to-white bg-clip-text border-l-4 border-[#FFD700] pl-4 inline-block">
-          Home Interior Design
+          Laxmi Interior – Home Design Gallery
         </h2>
         <p className="mt-4 text-gray-300 max-w-3xl text-base md:text-lg text-left">
-          We bring you carefully-curated interior design ideas, to give your home a brand new look.
-          Explore exclusive interior designs and trends that are every bit inspirational as they are
-          practical. Our team of experts makes it easy to transform your space beautifully.
+          Explore a curated collection of home interior designs by Laxmi Interior. From kitchens and
+          bedrooms to balconies and pooja rooms, each concept is crafted to balance beauty and
+          practicality. Find inspiration for your dream home and let our expert team bring it to life
+          with precise execution and premium finishes.
         </p>
       </div>
 
@@ -78,18 +79,19 @@ export default function DesignPage() {
       <section className="mt-24 bg-[#111] rounded-xl p-8 border border-[#333]">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#FFD700] to-white bg-clip-text text-transparent">
-            Turnkey Interior Solutions
+            Laxmi Interior Turnkey Solutions
           </h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            We offer end-to-end design and execution services — including layout planning, 3D
-            visualization, sourcing, installation, and final styling. Leave everything to us.
+            With Laxmi Interior, you get complete end-to-end interior solutions — from layout
+            planning and 3D visualizations to material selection, execution, installation, and final
+            styling. Sit back and relax while we manage every detail and deliver a move-in-ready home.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {["/design/turnkey1.png", "/design/turnkey2.png", "/design/turnkey3.png"].map((img, i) => (
+          {['/design/turnkey1.png', '/design/turnkey2.png', '/design/turnkey3.png'].map((img, i) => (
             <Link href="/contactus" key={i}>
               <div className="relative h-64 rounded-xl overflow-hidden cursor-pointer">
-                <Image src={img} alt={`Turnkey ${i}`} fill className="object-cover" />
+                <Image src={img} alt={`Laxmi Interior Turnkey Design ${i + 1}`} fill className="object-cover" />
               </div>
             </Link>
           ))}
@@ -100,19 +102,20 @@ export default function DesignPage() {
       <section className="mt-24 bg-[#111] rounded-xl p-8 border border-[#333]">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#FFD700] to-white bg-clip-text text-transparent">
-            Style Inspiration
+            Style Inspiration by Laxmi Interior
           </h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            Explore trending themes like Scandinavian minimalism, urban industrial, ethnic fusion,
-            and nature-inspired palettes. All ideas crafted by professionals for your dream home.
+            Discover signature styles curated by Laxmi Interior — from Scandinavian minimalism and
+            urban industrial looks to Indian contemporary and nature-inspired designs. Each concept is
+            thoughtfully planned to suit real homes, real families, and real lifestyles.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {["/design/style1.png", "/design/style2.png", "/design/style3.png", "/design/style4.png"].map(
+          {['/design/style1.png', '/design/style2.png', '/design/style3.png', '/design/style4.png'].map(
             (img, i) => (
               <Link href="/contactus" key={i}>
                 <div className="relative h-64 rounded-xl overflow-hidden cursor-pointer">
-                  <Image src={img} alt={`Style ${i}`} fill className="object-cover" />
+                  <Image src={img} alt={`Laxmi Interior Style Inspiration ${i + 1}`} fill className="object-cover" />
                 </div>
               </Link>
             )

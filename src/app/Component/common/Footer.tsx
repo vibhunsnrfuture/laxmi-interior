@@ -8,9 +8,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Column 1: Brand Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-3 text-[#bc6c25]">MyWebsite</h2>
+          <h2 className="text-2xl font-bold mb-3 text-[#bc6c25]">Laxmi Interior</h2>
           <p className="text-sm">
-            Bringing beauty to your interiors with custom designs and elegant finishes.
+            Designing elegant, functional spaces that reflect your lifestyle and bring lasting comfort to your home and all interior works, granite, tiles & marbles works.
           </p>
         </div>
 
@@ -29,15 +29,15 @@ export default function Footer() {
         {/* Column 3: Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
-          <p className="text-sm">Email: info@mywebsite.com</p>
-          <p className="text-sm">Phone: +91 9800000000</p>
-          <p className="text-sm mt-2">Ahmedabad, Gujarat, India</p>
+          <p className="text-sm">Email: laxmiinterior297@gmail.com</p>
+          <p className="text-sm">Phone: +919059120550, +917981351814</p>
+          <p className="text-sm mt-2">9-1-57/p laxmiguda, Hyderabad, India</p>
         </div>
       </div>
 
       {/* Bottom bar */}
       <div className="border-t border-[#e9edc9] mt-10 pt-4 text-center text-sm text-[#444]">
-        © {new Date().getFullYear()} MyWebsite. All rights reserved.
+        © {new Date().getFullYear()} Laxmi Interior. All rights reserved.
       </div>
     </footer>
   );

@@ -36,11 +36,11 @@ export default function ContactUsPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const businessPhoneNumber = '+918108019199';
+    const businessPhoneNumber = '+919059120550';
 
-    const fullMessage = `Hello Flourish Design's,
+    const fullMessage = `Hello Laxmi Interior,
 
-I'm interested in your interior designs services. Here are my details:
+I'm interested in your interior design services. Here are my details:
 
 Name: ${form.firstName} ${form.lastName}
 Phone: ${form.phone}
@@ -61,27 +61,50 @@ Looking forward to your response. Thank you!`;
     <main className="min-h-screen bg-black text-white px-6 py-8">
       <section className="max-w-6xl mx-auto text-left mb-14 fade-up opacity-0 translate-y-6 transition-all duration-700">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-[#FFD700] to-white bg-clip-text text-transparent animate-pulse">
-          Contact Us
+          Contact Laxmi Interior
         </h1>
         <p className="text-gray-300 max-w-2xl">
-          We are always happy to hear from you. Whether you are redesigning your dream home, seeking expert interior advice, or exploring custom space solutions — Flourish Design is here to help you bring your vision to life.
+          We’d love to connect with you. Whether you are planning your dream home, upgrading an existing
+          space, or exploring custom interior solutions — Laxmi Interior is here to guide you at every step.
         </p>
         <p className="text-gray-400 mt-4 max-w-3xl">
-          Fill out the form below or reach out directly. Our team will get back to you with honest answers and real guidance — no pushy
-          sales talk, just clear support to help you move forward with confidence.
+          Fill out the form below or reach out directly. Our team will respond with honest suggestions and
+          clear guidance — no pressure, just genuine support to help you make the right decision for your home.
         </p>
       </section>
 
       <form onSubmit={handleSubmit}>
         <section className="max-w-6xl mx-auto bg-[#111111] border border-[#2f2f2f] rounded-2xl p-12 md:p-16 space-y-8 fade-up opacity-0 translate-y-6 transition-all duration-700">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <FormField label="First Name" name="firstName" value={form.firstName} onChange={handleChange} />
-            <FormField label="Last Name" name="lastName" value={form.lastName} onChange={handleChange} />
-            <FormField label="Email" name="email" type="email" value={form.email} onChange={handleChange} />
+            <FormField
+              label="First Name"
+              name="firstName"
+              value={form.firstName}
+              onChange={handleChange}
+            />
+            <FormField
+              label="Last Name"
+              name="lastName"
+              value={form.lastName}
+              onChange={handleChange}
+            />
+            <FormField
+              label="Email"
+              name="email"
+              type="email"
+              value={form.email}
+              onChange={handleChange}
+            />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <FormField label="Phone" name="phone" type="tel" value={form.phone} onChange={handleChange} />
+            <FormField
+              label="Phone"
+              name="phone"
+              type="tel"
+              value={form.phone}
+              onChange={handleChange}
+            />
             <div>
               <label className="block mb-1 text-base">Inquiry Type</label>
               <select
@@ -105,7 +128,7 @@ Looking forward to your response. Thank you!`;
               value={form.message}
               onChange={handleChange}
               rows={5}
-              placeholder="Enter your Message here.."
+              placeholder="Tell us about your home, requirements, or ideas..."
               className="w-full px-5 py-3 rounded-lg bg-black border border-gray-600 text-white resize-none focus:ring-1 focus:ring-[#FFD700] transition"
               required
             />
@@ -114,7 +137,14 @@ Looking forward to your response. Thank you!`;
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-4">
             <label className="flex items-center gap-2 text-gray-400 text-base">
               <input type="checkbox" required className="accent-[#FFD700] scale-110" />
-              I agree with <a href="#" className="text-white underline">Terms of Use</a> and <a href="#" className="text-white underline">Privacy Policy</a>
+              I agree with{' '}
+              <a href="#" className="text-white underline">
+                Terms of Use
+              </a>{' '}
+              and{' '}
+              <a href="#" className="text-white underline">
+                Privacy Policy
+              </a>
             </label>
 
             <button

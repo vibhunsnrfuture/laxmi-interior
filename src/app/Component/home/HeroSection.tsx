@@ -27,17 +27,21 @@ export default function HeroSection() {
     return () => clearInterval(timer);
   }, []);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const businessPhoneNumber = '+918108019199';
+    const businessPhoneNumber = '+919059120550';
 
-    const message = `Hello Flourish Design's,
+    const message = `Hello Laxmi Interior,
 
-I'm interested in your interior design services. Here are my details:
+I am interested in your interior design services. Here are my details:
 
 Name: ${form.name}
 Phone: ${form.phone}
@@ -47,7 +51,7 @@ Inquiry Type: ${form.inquiry}
 Message:
 ${form.message}
 
-Looking forward to your response. Thank you!`;
+Kindly get back to me with more details. Thank you!`;
 
     const encodedMessage = encodeURIComponent(message);
     const whatsappURL = `https://wa.me/${businessPhoneNumber}?text=${encodedMessage}`;
@@ -77,19 +81,20 @@ Looking forward to your response. Thank you!`;
       <div className="relative z-10 flex flex-col md:flex-row justify-between items-start px-6 md:px-16 pt-36 md:pt-40 pb-16 gap-10">
         {/* Left Text */}
         <div className="max-w-4xl md:w-1/2">
-         <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-[#FFD700] to-white text-transparent bg-clip-text mb-6 leading-snug animate-pulse">
-          Designing spaces that reflect your lifestyle and elevate everyday living.
-        </h1>
-      <p className="text-white/90 max-w-2xl text-left mb-8">
-      We craft elegant and functional interiors that turn your vision into reality. From cozy homes to modern workspaces, our designs are tailored to match your style, needs, and comfort.
-      </p>
+          <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-[#FFD700] to-white text-transparent bg-clip-text mb-6 leading-snug animate-pulse">
+            Creating elegant interiors that reflect your personality and elevate your lifestyle.
+          </h1>
+          <p className="text-white/90 max-w-2xl text-left mb-8">
+            At Laxmi Interior, we design beautiful and functional spaces crafted around your taste, comfort, and daily living needs. From residential to commercial projects, we transform your ideas into reality with precision and creativity.
+          </p>
 
-     <Link href="/contactus">
-     <button className="bg-gradient-to-r from-[#FFD700] to-[#d4af37] text-black font-semibold px-6 py-3 rounded-full transition hover:scale-105">
-      BOOK FREE CONSULTATION
-    </button>
-    </Link>
-     </div>
+          <Link href="/contactus">
+            <button className="bg-gradient-to-r from-[#FFD700] to-[#d4af37] text-black font-semibold px-6 py-3 rounded-full transition hover:scale-105">
+              BOOK FREE CONSULTATION
+            </button>
+          </Link>
+        </div>
+
         {/* WhatsApp Form */}
         <div className="w-full md:w-[350px] md:ml-[-20px]">
           <form
@@ -136,8 +141,12 @@ Looking forward to your response. Thank you!`;
               required
             >
               <option value="">Looking For</option>
-              <option value="Design" className="text-black bg-white">Design</option>
-              <option value="Design & Build" className="text-black bg-white">Design & Build</option>
+              <option value="Design" className="text-black bg-white">
+                Design
+              </option>
+              <option value="Design & Build" className="text-black bg-white">
+                Design & Build
+              </option>
             </select>
 
             <textarea
