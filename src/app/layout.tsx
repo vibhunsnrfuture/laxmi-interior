@@ -15,60 +15,144 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // 🔹 Dynamic, SEO-friendly title
+  metadataBase: new URL("https://yogitainterior.in"),
+
   title: {
-    default: "Laxmi Interior | Home Interior Designer in Hyderabad",
-    template: "%s | Laxmi Interior Hyderabad",
+    default: "Yogita Interior | Home Interior Designer in Hyderabad",
+    template: "%s | Yogita Interior Hyderabad",
   },
 
-  // 🔹 Strong, keyword-rich description (but still natural)
   description:
-    "Laxmi Interior is a home interior design studio in Laxmiguda, Hyderabad offering modular kitchens, wardrobes, TV units, false ceilings, full home interiors, renovation and turnkey solutions for 1BHK, 2BHK and 3BHK flats.",
+    "Yogita Interior is a home interior design studio in Hyderabad offering modular kitchens, wardrobes, TV units, false ceilings, full home interiors, renovation and turnkey solutions for 1BHK, 2BHK and 3BHK flats.",
 
-  // 🔹 20+ SEO keywords
+  // ✅ Expanded: Professional + Hindi + Hinglish keywords
   keywords: [
-    "Laxmi Interior",
-    "Laxmi Interior Hyderabad",
+    // Brand / Domain
+    "Yogita Interior",
+    "Yogita Interior Hyderabad",
+    "YogitaInterior.in",
+    "yogitainterior",
+    "Yogita interiors",
+
+    // Core English (High intent)
     "interior designer in Hyderabad",
+    "best interior designer Hyderabad",
+    "top interior designers Hyderabad",
     "home interior design Hyderabad",
-    "modular kitchen Hyderabad",
-    "wardrobe design Hyderabad",
-    "full home interiors",
-    "1BHK interior design",
-    "2BHK interior design",
-    "3BHK interior design",
-    "living room interior design",
-    "bedroom interior design",
-    "false ceiling design",
-    "TV unit design",
-    "pooja room interior Hyderabad",
-    "balcony interior design",
-    "luxury interiors Hyderabad",
-    "budget interiors Hyderabad",
-    "turnkey interior solutions",
+    "interior design company Hyderabad",
+    "interior design studio Hyderabad",
+    "turnkey interior solutions Hyderabad",
+    "end to end home interiors Hyderabad",
+    "house interior design Hyderabad",
+    "flat interior design Hyderabad",
+    "apartment interiors Hyderabad",
+    "villa interior design Hyderabad",
     "home renovation Hyderabad",
+    "interior renovation Hyderabad",
+
+    // Services (English)
+    "modular kitchen Hyderabad",
+    "modular kitchen designer Hyderabad",
+    "modular kitchen price Hyderabad",
+    "wardrobe design Hyderabad",
+    "sliding wardrobe Hyderabad",
+    "TV unit design Hyderabad",
+    "false ceiling design Hyderabad",
+    "gypsum ceiling Hyderabad",
+    "living room interior design Hyderabad",
+    "bedroom interior design Hyderabad",
+    "kids bedroom interior Hyderabad",
+    "pooja room interior Hyderabad",
+    "balcony interior design Hyderabad",
     "custom furniture Hyderabad",
-    "interior design consultation Hyderabad",
+    "space saving furniture Hyderabad",
+    "wallpaper and wall decor Hyderabad",
+    "lighting design Hyderabad",
+    "paint and polish work Hyderabad",
+
+    // Budget / Luxury intent
+    "budget interiors Hyderabad",
+    "affordable interior designer Hyderabad",
+    "premium interiors Hyderabad",
+    "luxury interiors Hyderabad",
+    "modern interior design Hyderabad",
+    "contemporary interiors Hyderabad",
+    "minimalist interiors Hyderabad",
+
+    // BHK intent
+    "1BHK interior design Hyderabad",
+    "2BHK interior design Hyderabad",
+    "3BHK interior design Hyderabad",
+    "full home interior 2bhk Hyderabad",
+    "full home interior 3bhk Hyderabad",
+
+    // Hindi (Devanagari) - Local SEO intent
+    "हैदराबाद इंटीरियर डिजाइनर",
+    "हैदराबाद में इंटीरियर डिजाइन",
+    "हैदराबाद में बेस्ट इंटीरियर डिजाइनर",
+    "घर का इंटीरियर हैदराबाद",
+    "फ्लैट इंटीरियर हैदराबाद",
+    "किचन इंटीरियर हैदराबाद",
+    "मॉड्यूलर किचन हैदराबाद",
+    "वार्डरोब डिजाइन हैदराबाद",
+    "टीवी यूनिट डिजाइन हैदराबाद",
+    "फॉल्स सीलिंग हैदराबाद",
+    "जिप्सम सीलिंग हैदराबाद",
+    "बेडरूम इंटीरियर हैदराबाद",
+    "लिविंग रूम इंटीरियर हैदराबाद",
+    "पूजा रूम इंटीरियर हैदराबाद",
+    "घर रिनोवेशन हैदराबाद",
+    "टर्नकी इंटीरियर सॉल्यूशन हैदराबाद",
+
+    // Hinglish / Common search phrases
+    "Hyderabad me interior designer",
+    "best interior designer Hyderabad me",
+    "ghar ka interior Hyderabad",
+    "modular kitchen Hyderabad me",
+    "wardrobe banwana Hyderabad",
+    "false ceiling ka kaam Hyderabad",
+    "TV unit banwana Hyderabad",
+    "full home interior Hyderabad",
+    "2bhk interior Hyderabad",
+    "3bhk interior Hyderabad",
   ],
 
-  // 🔹 Open Graph for social sharing
-  openGraph: {
-    title: "Laxmi Interior | Home Interior Designer in Hyderabad",
-    description:
-      "End-to-end interior design services in Hyderabad – modular kitchens, wardrobes, full home interiors, renovation and turnkey solutions by Laxmi Interior.",
-    type: "website",
-    locale: "en_IN",
-    siteName: "Laxmi Interior",
+  alternates: {
+    canonical: "https://yogitainterior.in",
   },
 
-  // 🔹 Basic robots config (allow indexing)
+  openGraph: {
+    title: "Yogita Interior | Home Interior Designer in Hyderabad",
+    description:
+      "End-to-end interior design services in Hyderabad — modular kitchens, wardrobes, TV units, false ceilings, full home interiors, renovation and turnkey solutions by Yogita Interior.",
+    type: "website",
+    locale: "en_IN",
+    siteName: "Yogita Interior",
+    url: "https://yogitainterior.in",
+    // images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Yogita Interior Hyderabad" }],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Yogita Interior | Home Interior Designer in Hyderabad",
+    description:
+      "Hyderabad home interior design studio for modular kitchens, wardrobes, false ceilings, TV units, renovations & turnkey interiors — Yogita Interior.",
+    // images: ["/og.jpg"],
+  },
+
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 
-  // 🔹 Extra info (optional but nice)
-  authors: [{ name: "Laxmi Interior", url: "mailto:laxmiinterior297@gmail.com" }],
+  authors: [{ name: "Yogita Interior", url: "https://yogitainterior.in" }],
   category: "Home & Interior Design",
 };
 
