@@ -11,14 +11,14 @@ export default function AboutUsPage() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 mb-20 px-6">
         <div className="flex-1 animate-fade-in-up">
           <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-[#FFD700] to-white bg-clip-text text-transparent animate-pulse">
-            About Laxmi Interior
+            About Yogita Interior
           </h1>
           <p className="mb-6 text-lg leading-relaxed text-gray-300">
-            At Laxmi Interior, we believe a home should reflect who you are — your lifestyle, your story,
+            At Yogita Interior, we believe a home should reflect who you are — your lifestyle, your story,
             and your aspirations.
             <br />
             <br />
-            Based in Mumbai, Thane, and Navi Mumbai, Laxmi Interior is a full-service interior design firm
+            Based in Mumbai, Thane, and Navi Mumbai, Yogita Interior is a full-service interior design firm
             dedicated to transforming ordinary spaces into warm, elegant, and thoughtfully designed
             environments you’ll love coming back to every day.
           </p>
@@ -28,7 +28,7 @@ export default function AboutUsPage() {
           <div className="rounded-xl overflow-hidden border-4 border-yellow-400 shadow-lg">
             <Image
               src="/tumbnailaboutus.png"
-              alt="Laxmi Interior project showcase"
+              alt="Yogita Interior project showcase"
               width={500}
               height={300}
               className="w-full h-auto object-cover"
@@ -41,7 +41,7 @@ export default function AboutUsPage() {
       {/* Why Choose Us */}
       <section className="max-w-7xl mx-auto text-left px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-[#FFD700] to-white bg-clip-text text-transparent animate-pulse">
-          Why Choose Laxmi Interior
+          Why Choose Yogita Interior
         </h2>
         <p className="text-gray-300 mb-10 max-w-3xl text-left animate-fade-in-up">
           For us, interior design is more than décor — it’s about creating spaces that support your
@@ -53,7 +53,7 @@ export default function AboutUsPage() {
             <div>
               <h3 className="text-xl font-semibold mb-1">Bespoke Creations</h3>
               <p className="text-gray-400 text-sm">
-                Every Laxmi Interior project is uniquely designed to suit your taste, space, and way of living —
+                Every Yogita Interior project is uniquely designed to suit your taste, space, and way of living —
                 no generic templates, only personalised concepts.
               </p>
             </div>
@@ -74,7 +74,7 @@ export default function AboutUsPage() {
               <h3 className="text-xl font-semibold mb-1">Client-First Approach</h3>
               <p className="text-gray-400 text-sm">
                 From the first meeting to final handover, your comfort, preferences, and feedback stay at the
-                heart of our process at Laxmi Interior.
+                heart of our process at Yogita Interior.
               </p>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function AboutUsPage() {
             <div>
               <h3 className="text-xl font-semibold mb-1">Reliable After-Sales Support</h3>
               <p className="text-gray-400 text-sm">
-                Even after project completion, the Laxmi Interior team is available for support, touch-ups,
+                Even after project completion, the Yogita Interior team is available for support, touch-ups,
                 and guidance — because long-term relationships matter to us.
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function AboutUsPage() {
           Our Journey
         </h2>
         <p className="text-gray-300 mb-10 max-w-3xl text-left animate-fade-in-up">
-          What started as a passion for thoughtful spaces has grown into Laxmi Interior — a trusted name
+          What started as a passion for thoughtful spaces has grown into Yogita Interior — a trusted name
           in residential and commercial interior design, known for detail-oriented execution and
           timeless aesthetics.
         </p>
@@ -112,7 +112,7 @@ export default function AboutUsPage() {
           <div className="bg-[#111111] border border-gray-700 rounded-xl p-6 shadow-lg">
             <h3 className="text-xl font-semibold mb-2">5+ Years of Design Excellence</h3>
             <p className="text-gray-400 text-sm">
-              With each year, Laxmi Interior continues to refine its craft, embracing new materials,
+              With each year, Yogita Interior continues to refine its craft, embracing new materials,
               technologies, and styles to better serve our clients.
             </p>
           </div>

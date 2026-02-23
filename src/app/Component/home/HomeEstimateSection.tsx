@@ -8,7 +8,7 @@ const estimateOptions = [
   {
     title: 'Full Home Interior',
     description:
-      'Premium 1BHK full interiors starting from ₹0.6L and 2BHK from ₹3.7L by Laxmi Interior.',
+      'Premium 1BHK full interiors starting from ₹0.6L and 2BHK from ₹3.7L by Yogita Interior.',
     image: '/icons/image.png',
   },
   {
@@ -47,7 +47,7 @@ export default function HomeEstimateSection() {
           </span>
         </h2>
         <p className="text-gray-300 mt-2 text-base">
-          Instantly calculate the approximate cost of your interior project with Laxmi Interior.
+          Instantly calculate the approximate cost of your interior project with Yogita Interior.
         </p>
       </div>
 

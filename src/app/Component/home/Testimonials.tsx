@@ -8,7 +8,7 @@ const testimonials = [
     name: 'Riya Malhotra',
     location: 'Hyderabad',
     avatar: '/home/client1.png',
-    title: 'Beautiful Transformation by Laxmi Interior',
+    title: 'Beautiful Transformation by Yogita Interior',
     feedback:
       'Laxmi Interior transformed our 3BHK into a modern, functional home. The team understood our taste perfectly and delivered a design that feels premium yet homely.',
   },
@@ -18,7 +18,7 @@ const testimonials = [
     avatar: '/home/boyavtar.png',
     title: 'Smooth & Hassle-Free Experience',
     feedback:
-      'From the first design discussion to final installation, the Laxmi Interior team handled everything professionally. Their creativity, regular updates, and on-time delivery made the entire journey stress-free.',
+      'From the first design discussion to final installation, the Yogita Interior team handled everything professionally. Their creativity, regular updates, and on-time delivery made the entire journey stress-free.',
   },
   {
     name: 'Dr. Ayesha Singh',
@@ -26,7 +26,7 @@ const testimonials = [
     avatar: '/home/client1.png',
     title: 'Perfect Space for My Practice',
     feedback:
-      'Laxmi Interior redesigned my clinic with a clean, calming look and a smart layout. Patients love the new ambience, and it reflects exactly the professional yet warm feel I wanted.',
+      'Yogita Interior redesigned my clinic with a clean, calming look and a smart layout. Patients love the new ambience, and it reflects exactly the professional yet warm feel I wanted.',
   },
 ];
 
@@ -49,10 +49,10 @@ export default function Testimonials() {
     <section className="bg-black text-white py-20 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-2 bg-gradient-to-r from-[#FFD700] to-white text-transparent bg-clip-text animate-pulse">
-          What Our Laxmi Interior Clients Say
+          What Our Yogita Interior Clients Say
         </h2>
         <p className="text-gray-400 mb-10 text-sm">
-          Hear from homeowners and professionals who trusted Laxmi Interior to design and execute their dream spaces.
+          Hear from homeowners and professionals who trusted Yogita Interior to design and execute their dream spaces.
         </p>
 
         {/* Carousel Container */}

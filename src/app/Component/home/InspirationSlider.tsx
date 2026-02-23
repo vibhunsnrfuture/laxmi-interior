@@ -38,10 +38,10 @@ export default function InspirationGrid() {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-14 gap-4 sm:gap-3">
           <div>
             <h2 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-r from-[#FFD700] to-white text-transparent bg-clip-text animate-pulse">
-              Laxmi Interior inspirations for your dream home
+              Yogita Interior inspirations for your dream home
             </h2>
             <p className="text-white text-sm mt-2 animate-fade-in">
-              Browse handpicked Laxmi Interior designs for every corner of your home – crafted to balance comfort, style, and functionality.
+              Browse handpicked Yogita Interior designs for every corner of your home – crafted to balance comfort, style, and functionality.
             </p>
           </div>
 

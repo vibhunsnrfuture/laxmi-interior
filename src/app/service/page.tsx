@@ -9,10 +9,10 @@ export default function ServicePage() {
       {/* --------------------- Page Header --------------------- */}
       <section className="text-center max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-[#FFD700] to-white text-transparent bg-clip-text animate-pulse">
-          Our Services – Laxmi Interior
+          Our Services – Yogita Interior
         </h1>
         <p className="text-gray-400 text-lg">
-          Laxmi Interior offers comprehensive interior design solutions tailored to your lifestyle, space, and budget.
+          Yogita Interior offers comprehensive interior design solutions tailored to your lifestyle, space, and budget.
         </p>
       </section>
 
@@ -37,7 +37,7 @@ export default function ServicePage() {
             icon: '/service/service3.png',
             title: 'Design Consultation',
             desc:
-              'Expert guidance from Laxmi Interior to help you plan layouts, choose materials, and align your space with your vision.',
+              'Expert guidance from Yogita Interior to help you plan layouts, choose materials, and align your space with your vision.',
             points: ['Design Planning', 'Color Consultation', 'Space Optimization', 'Budget Planning'],
           },
           {
@@ -58,7 +58,7 @@ export default function ServicePage() {
             icon: '/service/service6.png',
             title: '3D Interior Visualization',
             desc:
-              'Experience your Laxmi Interior design virtually before execution with detailed 3D visuals and walkthroughs.',
+              'Experience your Yogita Interior design virtually before execution with detailed 3D visuals and walkthroughs.',
             points: ['3D Floor Plans', 'Realistic Renderings', 'Virtual Walkthroughs', 'Design Previews'],
           },
         ].map((item, index) => (
@@ -83,7 +83,7 @@ export default function ServicePage() {
       {/* --------------------- Interior Design Process --------------------- */}
       <section className="bg-[#111111] border border-gray-700 rounded-xl px-6 py-12 max-w-7xl mx-auto text-white">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-[#FFD700] to-white bg-clip-text text-transparent animate-pulse">
-          Laxmi Interior Design Process
+          Yogita Interior Design Process
         </h2>
         <div className="grid md:grid-cols-4 gap-6 text-center">
           {[
@@ -126,7 +126,7 @@ export default function ServicePage() {
       {/* --------------------- What Makes Us Unique --------------------- */}
       <section className="max-w-7xl mx-auto text-white px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-[#FFD700] to-white bg-clip-text text-transparent animate-pulse">
-          What Makes Laxmi Interior Unique?
+          What Makes Yogita Interior Unique?
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {[
@@ -139,7 +139,7 @@ export default function ServicePage() {
             {
               title: 'On-Time Delivery',
               desc:
-                'With efficient project management and regular updates, Laxmi Interior ensures timely delivery of your project.',
+                'With efficient project management and regular updates, Yogita Interior ensures timely delivery of your project.',
               icon: '/service/ontime.png',
             },
             {

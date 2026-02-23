@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Column 1: Brand Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-3 text-[#bc6c25]">Laxmi Interior</h2>
+          <h2 className="text-2xl font-bold mb-3 text-[#bc6c25]">Yogita Interior</h2>
           <p className="text-sm">
             Designing elegant, functional spaces that reflect your lifestyle and bring lasting comfort to your home and all interior works, granite, tiles & marbles works.
           </p>
@@ -37,7 +37,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-[#e9edc9] mt-10 pt-4 text-center text-sm text-[#444]">
-        © {new Date().getFullYear()} Laxmi Interior. All rights reserved.
+        © {new Date().getFullYear()} Yogita Interior. All rights reserved.
       </div>
     </footer>
   );

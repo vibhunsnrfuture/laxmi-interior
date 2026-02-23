@@ -18,7 +18,7 @@ export default function WhyChooseUs() {
     <section className="bg-black py-16 overflow-hidden">
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white">
-          Why Choose <span className="text-[#FFD700]">Laxmi Interior</span>
+          Why Choose <span className="text-[#FFD700]">Yogita Interior</span>
         </h2>
       </div>
 

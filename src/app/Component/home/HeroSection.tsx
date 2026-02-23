@@ -39,7 +39,7 @@ export default function HeroSection() {
     e.preventDefault();
     const businessPhoneNumber = '+919059120550';
 
-    const message = `Hello Laxmi Interior,
+    const message = `Hello Yogita Interior,
 
 I am interested in your interior design services. Here are my details:
 
@@ -85,7 +85,7 @@ Kindly get back to me with more details. Thank you!`;
             Creating elegant interiors that reflect your personality and elevate your lifestyle.
           </h1>
           <p className="text-white/90 max-w-2xl text-left mb-8">
-            At Laxmi Interior, we design beautiful and functional spaces crafted around your taste, comfort, and daily living needs. From residential to commercial projects, we transform your ideas into reality with precision and creativity.
+            At Yogita Interior, we design beautiful and functional spaces crafted around your taste, comfort, and daily living needs. From residential to commercial projects, we transform your ideas into reality with precision and creativity.
           </p>
 
           <Link href="/contactus">

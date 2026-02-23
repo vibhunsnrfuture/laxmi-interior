@@ -38,7 +38,7 @@ export default function ContactUsPage() {
     e.preventDefault();
     const businessPhoneNumber = '+919059120550';
 
-    const fullMessage = `Hello Laxmi Interior,
+    const fullMessage = `Hello Yogita Interior,
 
 I'm interested in your interior design services. Here are my details:
 
@@ -61,11 +61,11 @@ Looking forward to your response. Thank you!`;
     <main className="min-h-screen bg-black text-white px-6 py-8">
       <section className="max-w-6xl mx-auto text-left mb-14 fade-up opacity-0 translate-y-6 transition-all duration-700">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-[#FFD700] to-white bg-clip-text text-transparent animate-pulse">
-          Contact Laxmi Interior
+          Contact Yogita Interior
         </h1>
         <p className="text-gray-300 max-w-2xl">
           We’d love to connect with you. Whether you are planning your dream home, upgrading an existing
-          space, or exploring custom interior solutions — Laxmi Interior is here to guide you at every step.
+          space, or exploring custom interior solutions — Yogita Interior is here to guide you at every step.
         </p>
         <p className="text-gray-400 mt-4 max-w-3xl">
           Fill out the form below or reach out directly. Our team will respond with honest suggestions and
